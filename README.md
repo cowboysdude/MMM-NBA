@@ -4,7 +4,8 @@ NBA Score modules for MM2
 
 BETA 
  ____________________________________CONFIG.JS_____________________________________
-         {
+          
+	   {
         	disabled: f,
 		  	module: 'MMM-NBA',
 			  position: 'middle_center',
