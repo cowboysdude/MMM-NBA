@@ -1,0 +1,32 @@
+
+.MMM-NBA .wrapper{
+  text-align: justify;
+  width: 450px;
+}
+.MMM-NBA .header {
+  color: #fff;
+  text-align: center;
+}
+.MMM-NBA .status {
+  color: #fe0127;
+  font-size: 18px;
+}
+.MMM-NBA .r {
+  color: #c6d9d0;
+}
+.MMM-NBA .h {
+  color: #c6d9d0;
+}
+.MMM-NBA .e {
+  color: #c6d9d0;
+}
+.MMM-NBA .hometeam {
+  color: #e4e4e4;
+}
+.MMM-NBA .awayteam {
+  color: #e4e4e4;
+}
+.MMM-NBA .logo {
+	height: 25px;
+	width: 25px;
+}

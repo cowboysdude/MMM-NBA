@@ -1,0 +1,24 @@
+{
+  "name": "mmm-nba",
+  "version": "1.0.0",
+  "description": "NBA Score module for MM2",
+  "main": "MMM-NBA.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cowboysdude/MMM-NBA.git"
+  },
+  "author": "cowboysdude",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cowboysdude/MMM-NBA/issues"
+  },
+  "homepage": "https://github.com/cowboysdude/MMM-NBA#readme",
+  "dependencies": {
+    "moment": "^2.17.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {}
+}
