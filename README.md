@@ -1,8 +1,20 @@
 # MMM-NBA
+BETA 
+
 NBA Score modules for MM2
 
+~MagicMirror/modules
 
-BETA 
+git clone https://github.com/cowboysdude/MMM-NBA
+
+~MagicMirror/modules/MMM-NBA
+
+npm install
+
+THEN in your config.js.....
+
+
+
  ____________________________________CONFIG.JS_____________________________________
           
 	   {
