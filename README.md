@@ -18,7 +18,7 @@ THEN in your config.js.....
  ____________________________________CONFIG.JS_____________________________________
           
 	   {
-        	disabled: f,
+        	disabled: false,
 		  	module: 'MMM-NBA',
 			  position: 'middle_center',
 			  config: {
