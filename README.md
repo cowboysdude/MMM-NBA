@@ -1,5 +1,5 @@
 # MMM-NBA
-BETA 
+
 
 NBA Score modules for MM2
 
@@ -13,7 +13,7 @@ npm install
 
 THEN in your config.js.....
 
-
+    [feature to do:  focus_on so you can just look at one or an array of teams of your choice]
 
  ____________________________________CONFIG.JS_____________________________________
           
