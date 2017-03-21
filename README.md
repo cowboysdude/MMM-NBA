@@ -13,18 +13,26 @@ npm install
 
 THEN in your config.js.....
 
-    [feature to do:  focus_on so you can just look at one or an array of teams of your choice]
+    Config Options:
+    maxWidth: Default is set to 500px you can make it any number
+    header: do you want the header?  true = yes, false = no
+    logo: do you want the NBA logo?  true = yes, false = no [If set to yes, header must also be yes]
+    focus_on: [""] - must be set by teams nickname, uppercase in quotation marks.  More than one seperated by coma -
+                     SEE EXAMPLE BELOW.
 
  ____________________________________CONFIG.JS_____________________________________
           
 	   {
         	disabled: false,
-		  	module: 'MMM-NBA',
-			  position: 'middle_center',
-			  config: {
+			module: 'MMM-NBA',
+			position: 'middle_center',
+			config: {
 				maxWidth: "500px",
-			  }
-		  },
+				header: true,
+				logo: true,
+				focus_on: ["Trail Blazers","Bulls"]
+			}
+		},
 
 ________________________________________________________________________________________
 
