@@ -21,7 +21,16 @@ module.exports = NodeHelper.create({
             method: 'GET'
         }, (error, response, body) => {
             if (!error && response.statusCode == 200) {
-                var result = JSON.parse(body).sports_content.games.game;
+                var result = JSON.parse(body).sports_content.games;
+                if(this.config.focus_on.length > 0){
+					result.game = result.game.filter((game) => {
+						if(this.config.focus_on.includes(game.home.nickname) || this.config.focus_on.includes(game.visitor.nickname)){
+							return true;
+						} else {
+							return false;
+						}
+					});
+				}
                 this.sendSocketNotification('NBA_RESULTS', result);
             }
         });
@@ -29,7 +38,9 @@ module.exports = NodeHelper.create({
     
     
     socketNotificationReceived: function(notification, payload) {
-        if (notification === 'GET_NBA') {
+    	if(notification === 'CONFIG'){
+			this.config = payload;
+		} else if (notification === 'GET_NBA') {
                 this.getNBA(payload);
             }
        }
