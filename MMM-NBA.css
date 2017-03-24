@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
 .MMM-NBA .wrapper{
   text-align: justify;
   width: 450px;
@@ -7,8 +7,12 @@
   color: #fff;
   text-align: center;
 }
+.MMM-NBA .font {
+	font-family: 'Orbitron', sans-serif;
+}
 .MMM-NBA .status {
-  color: #fe0127;
+  font-family: 'Orbitron', sans-serif;
+  color: #ee0000;
   font-size: 18px;
 }
 .MMM-NBA .r {
@@ -22,11 +26,16 @@
 }
 .MMM-NBA .hometeam {
   color: #e4e4e4;
+  font-size: 16px;
 }
 .MMM-NBA .awayteam {
   color: #e4e4e4;
+  font-size: 16px;
 }
 .MMM-NBA .logo {
 	height: 25px;
 	width: 25px;
+}
+.MMM-NBA .preview {
+	color: #e4e4e4;
 }
