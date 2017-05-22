@@ -7,10 +7,6 @@ NBA Score modules for MM2
 
 git clone https://github.com/cowboysdude/MMM-NBA
 
-~MagicMirror/modules/MMM-NBA
-
-npm install
-
 THEN in your config.js.....
 
     Config Options:
